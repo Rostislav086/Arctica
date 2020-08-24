@@ -1,0 +1,14 @@
+@import "_normalize";
+@import "_header";
+@import "_footer";
+@import "_templates";
+
+body {
+    font-family: "PT Sans";
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+}

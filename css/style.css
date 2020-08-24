@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  background: url("/img/header/1.png") no-repeat;
+  background-size: cover;
+  padding: 32px 0px 0px 0px;
+}
+
+.header .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .navigation-logo {
+  margin: 0px 48px 0px 0px;
+}
+
+.header .navigation-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .navigation-link {
+  margin: 0px 32px 0px 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header .navigation-link:last-child {
+  margin: 0px 0px 0px 0px;
+}
+
+.header .navigation-button {
+  border: 1px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: transparent;
+  padding: 8px 38px;
+}
+
+.header .header-content {
+  margin: 370px 0px 0px 0px;
+}
+
+.header .header-content__title {
+  display: inline-block;
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 110.2%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.header .header-content__subtitle {
+  margin: 44px 0px 0px 0px;
+  padding: 0px 0px 403px 0px;
+  width: 308px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 122.4%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.header .content-title__arctic::after {
+  margin: 0px 0px 0px 40px;
+  display: inline-block;
+  vertical-align: middle;
+  content: "";
+  width: 140px;
+  height: 11px;
+  background-color: #fff;
+}
+
+body {
+  font-family: "PT Sans";
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 95%;
+}
